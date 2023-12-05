@@ -4,7 +4,7 @@ In this project, we'll embark on a thrilling journey, exploring every step from 
 
 As we will be analyzing a sample superstore's sales report, By harnessing the robust functionalities of Power BI, We will be transforming raw data into stunning visualizations and report.
 
-We'll start with a fresh Power BI project, and then we'll add a data source, report, and dashboard. By the end of this project, you'll have a full-blown Power BI project, ready to be used in your business.
+We'll start with a fresh Power BI project, and then we'll add a data source and report. By the end of this project, you'll have a full-blown Power BI project, ready to be used in your business.
 
 The screenshot of the power bi report is shared below:
 
