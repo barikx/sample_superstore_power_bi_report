@@ -7,6 +7,9 @@ I shall devide this project in three sections.
 
 # 1. Introduction :
 
+Download the excel file(which contains the data of sales of different products of a super store) from here - https://github.com/barikx/sample_superstore_power_bi_report/blob/main/Sample%20-%20Superstore.xlsx
+
+
 We'll start with a fresh Power BI project, and then we'll add a data source and report. By the end of this project, you'll have a full-blown Power BI project, ready to be used in your business.
 
 The screenshot of the power bi report is shared below:
