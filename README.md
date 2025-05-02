@@ -1,5 +1,7 @@
 # sample_superstore_power_bi_report
 
+## Introduction :
+
 In this project, we'll embark on a thrilling journey, exploring every step from acquiring raw data to creating stunning reports with Power BI. Together, we'll uncover hidden insights and unleash the true power of data to make informed decisions. 
 
 As we will be analyzing a sample superstore's sales report, By harnessing the robust functionalities of Power BI, We will be transforming raw data into stunning visualizations and report.
