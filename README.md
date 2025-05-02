@@ -12,7 +12,7 @@ Download the excel file(which contains the data of sales of different products o
 
 We'll start with a fresh Power BI project, and then we'll add a data source and report. By the end of this project, you'll have a full-blown Power BI project, ready to be used in your business.
 
-The screenshot of the power bi report is shared below:
+The screenshot of the power bi report after finishing of the project is shared below:
 
 
 ![bi](https://github.com/barikx/sample_superstore_power_bi_report/assets/124221384/4948b1dc-68c9-4656-add5-e0663cf3829b)
