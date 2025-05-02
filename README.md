@@ -5,7 +5,7 @@ I shall devide this project in three sections.
 ### Level 2 - Data Analysis
 ### Level 3 - Result
 
-# Introduction :
+# 1. Introduction :
 
 We'll start with a fresh Power BI project, and then we'll add a data source and report. By the end of this project, you'll have a full-blown Power BI project, ready to be used in your business.
 
@@ -15,7 +15,7 @@ The screenshot of the power bi report is shared below:
 ![bi](https://github.com/barikx/sample_superstore_power_bi_report/assets/124221384/4948b1dc-68c9-4656-add5-e0663cf3829b)
 
 
-# Data Analysis - How the Sample Superstore Report is Created from an Excel File:
+# 2. Data Analysis - How the Sample Superstore Report is Created from an Excel File:
 
 ## Data Import:
 
@@ -100,11 +100,11 @@ Summary Line for Resume:
 
 
 
-# Result - What is the result which we shall get from this project?
+# 3. Result - What is the result which we shall get from this project?
 
-# Key Insights from the Dashboard:
+## Key Insights from the Dashboard:
 
-## 1. Overall Performance Metrics (Top Center)
+### 1. Overall Performance Metrics (Top Center)
 
 Sum of Sales: 2.30 Million dollars
 
@@ -114,7 +114,7 @@ Sum of Quantity: 38K units
 
 👉 This tells us the overall sales revenue, total profit earned, and total quantity of products sold.
 
-## 2. Profit Trend Over Time (Top-Right Line Chart)
+### 2. Profit Trend Over Time (Top-Right Line Chart)
 
 Sum of Profit by Year (2016–2019):
 
@@ -128,7 +128,7 @@ Sum of Profit by Year (2016–2019):
 
 👉 The profit has been steadily increasing year over year — a positive growth trend.
 
-## 3. Profit Contribution by Region (Donut Chart)
+### 3. Profit Contribution by Region (Donut Chart)
    
 West: 108.42K profit (37.86%) — highest
 
@@ -140,7 +140,7 @@ Central: 39.71K profit (13.82%)
 
 👉 West region contributes the largest share of profits.
 
-## 4. Profit Contribution by Customer Segment (Donut Chart)
+### 4. Profit Contribution by Customer Segment (Donut Chart)
 
 Consumer: 134.12K (46.83%) — largest customer segment
 
@@ -150,7 +150,7 @@ Home Office: 60.3K (21.05%)
 
 👉 Consumers drive almost half of the total profits.
 
-## 5. Profit by Product Category (Donut Chart)
+### 5. Profit by Product Category (Donut Chart)
 
 Technology: 145.45K (50.79%) — most profitable category
 
