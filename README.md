@@ -20,86 +20,108 @@ The screenshot of the power bi report after finishing of the project is shared b
 
 # 2. Data Analysis - How the Sample Superstore Report is Created from an Excel File:
 
-## Data Import:
+## 📂 1. Data Source Connection
+The Excel file (probably named like SampleSuperstore.xlsx) was imported into Power BI.
 
-Start by importing the Sample Superstore Excel file (.xlsx) into Power BI Desktop.
+It contained raw data about:
 
-Load the tables such as Orders, Returns, and Users (depending on what's included).
+Orders (Product, Category, Sub-Category)
 
-Review the structure of the data (columns like Order ID, Customer Name, Region, Sales, Profit, etc.).
+Sales
 
-## Data Cleaning and Transformation:
+Profit
 
-Perform basic data cleaning:
+Quantity
 
-Remove unnecessary columns.
+Region and State
 
-Correct data types (e.g., dates, numbers, text).
+Year / Date of order
 
-Handle missing or null values if any.
+✅ In Power BI:
 
-Create calculated columns if needed (e.g., extracting year, month from order dates).
+➔ Click Home > Get Data > Excel Workbook ➔ Select the Excel file ➔ Load tables into Power BI.
 
-## Data Modeling:
+## 🧹 2. Data Cleaning and Transformation (Power Query Editor)
+Before creating visuals, they likely:
 
-Establish relationships between tables (for example, linking Orders to Returns using Order ID).
+Renamed columns if needed for clarity.
 
-Ensure that the data model is clean, optimized, and follows a star schema where possible.
+Removed null values or empty rows.
 
-## Measure Creation (using DAX):
+Converted data types:
+(e.g., Sales and Profit to Decimal Number, Quantity to Whole Number).
 
-Create DAX Measures to calculate key metrics:
+Created a "Year" field from the date if not already available.
 
-Total Sales (SUM(Sales))
+✅ In Power BI:
 
-Total Profit (SUM(Profit))
+➔ Use Transform Data to clean and prepare.
 
-Profit Margin (DIVIDE(SUM(Profit), SUM(Sales)))
+## 📊 3. Data Modeling (Relationships if needed)
+If the Excel file had multiple sheets (like Customers, Orders, Products), relationships were created between:
 
-Number of Orders (DISTINCTCOUNT(Order ID))
+Orders Table linked to Products Table (Product ID)
 
-Create time-based measures like Year-to-Date (YTD) Sales if needed.
+Orders Table linked to Customers Table (Customer ID)
 
-## Building Visualizations:
+✅ In Power BI:
 
-Design various interactive visuals like:
+➔ Go to Model View to set relationships.
 
-Bar charts: Sales by Category, Sub-Category
+## 📈 4. Creating Visualizations
+Now comes the real dashboard building:
 
-Line charts: Sales/Profit trends over time
+Cards for KPIs:
 
-Maps: Sales by State/Region
+Sum of Sales (2.30M)
 
-Pie charts: Market Share by Segment
+Sum of Profit (286.40K)
 
-KPI Cards: Total Sales, Total Profit, Number of Customers
+Sum of Quantity (38K)
 
-Use slicers and filters to allow users to select different regions, years, categories, etc.
+Table for Region/Sub-category breakdown
 
-## Dashboard Layout and Formatting:
+Line Chart for Profit over Years (growth trend)
 
-Arrange visuals in a logical and clean layout.
+Bar Chart for Profit by Sub-Category
 
-Apply consistent color themes, fonts, and borders for a professional look.
+Pie/Donut Charts for:
 
-Add titles, tooltips, legends, and labels for clarity.
+Profit by Region
 
-## Interactivity Features:
+Profit by Segment
 
-Enable drill-through pages (e.g., click on a region to drill into detailed sales analysis).
+Profit by Category
 
-Use bookmarks and buttons to navigate between report pages.
+✅ In Power BI:
 
-Set up dynamic titles that change based on selected filters.
+➔ Use Visualizations Pane ➔ Drag and drop fields to create graphs.
 
-## Publishing and Sharing:
+## 🎛️ 5. Adding Filters / Slicers
+Slicer for States:
+Allows the user to select a specific state and update the whole dashboard dynamically.
 
-Publish the report to Power BI Service for cloud access if needed.
+✅ In Power BI:
 
-Share the report link or embed it in dashboards for teams to use.
+➔ Insert a Slicer ➔ Choose State column.
 
-Summary Line for Resume:
-"Built an interactive Power BI report by importing, cleaning, modeling, and visualizing Excel-based retail data (Sample Superstore), applying DAX measures, and delivering dynamic dashboards for business insight."
+## 🎨 6. Styling and Formatting
+Black background for a modern dashboard look.
+
+White text and bright colored charts for contrast.
+
+Rounded and clean fonts to make it easy to read.
+
+Proper titles for every visual.
+
+✅ In Power BI:
+
+➔ Use Format Pane ➔ Customize fonts, colors, backgrounds.
+
+## 💾 7. Saving and Publishing
+Saved as .pbix file (Power BI file).
+
+Optionally, published to Power BI Service for sharing with others.
 
 
 
